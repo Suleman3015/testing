@@ -1,0 +1,142 @@
+.getStarted__container {
+    width: 100%;
+    height: 100vh;
+    background-color: #111;
+    color: #fff;
+    /* text-align: center; */
+}
+
+.getStarted__content {
+    padding-top: 20vh;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.getStarted__icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+}
+
+.getStarted__icon img {
+    height: 100px;
+}
+
+.getStarted__title {
+    font-size: 18px;
+    margin-bottom: -1px;
+    font-weight: 300;
+    word-spacing: .5px;
+    letter-spacing: 1px;
+}
+
+.getStarted__description {
+    font-size: 50px;
+    line-height: 90px;
+    font-weight: 900;
+}
+
+.getStarted__description h1 {
+    font-weight: 900;
+    letter-spacing: 5px;
+    word-spacing: -4px;
+}
+
+.getStarted-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+ }
+ 
+ .getStarted-btn {
+    border:3px solid #fff;
+   border-radius: 5px;
+   font-size:0.875;
+   word-wrap: break-word;
+   text-align: center;
+   text-transform: uppercase;
+   color: #111;
+   background-color: #fff;
+   /* background-color: transparent; */
+   margin-right: 14px;
+   width: 220px;
+   height: 50px;
+   margin-bottom: 10px;
+   font-size: 17px;
+   display: flex;
+   font-weight: 500;
+   align-items: center;
+   justify-content: center;
+ }
+ 
+ .getStarted-btn:hover {
+     background-color: rgb(235, 232, 232);
+    border:3px solid rgb(235, 232, 232);
+
+     color: #111;
+     transition: all .5s;
+ }
+
+ .getStarted__end-slogan {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+ }
+
+ .getStarted-paragraph {
+     display: flex;
+     padding-left: 15px;
+ }
+
+ .getStarted-paragraph p {
+     font-weight: 300;
+     color: rgb(173, 173, 173);
+ }
+
+ .getStarted-paragraph a {
+     font-weight: 300;
+     text-decoration: underline;
+     padding-left: 5px;
+     color: rgb(173, 173, 173);
+ }
+ 
+ 
+ @media (min-width: 200px) and (max-width: 500px) {
+     .getStarted-button {
+         padding-left: 10px;
+         padding-right: 10px;
+      }
+      
+     .getStarted-btn {
+         padding-top: 10px;
+         padding-bottom: 10px;
+     }
+ }
+
+@media (min-width: 200px) and (max-width: 550px) {
+    .getStarted__container {
+        height: 600px;
+    }
+    .getStarted__description {
+        font-size: 35px;
+        line-height: 45px;
+        padding-bottom: 20px;
+    }
+
+    .getStarted__title {
+        font-size: 13px;
+    }
+
+    .getStarted-btn {
+        border: none;
+    }
+}
+
+@media (min-width: 550px) and (max-width: 700px) {
+    .getStarted__description {
+        font-size: 40px;
+        line-height: 65px;
+    }
+}

@@ -1,0 +1,68 @@
+.hamburger {
+    display: none;
+}
+
+@media(max-width:800px) {
+    .hamburger {
+        display: flex;
+        flex-direction: column;
+        font-family: Marr Sans Web, Helvetica Neue, HelveticaNeue-Light, Helvetica Neue Light, Helvetica, Arial, Lucida Grande, sans-serif;
+        width: 100%;
+        background-color: #111110;
+        height: 100vh;
+        justify-content: space-between;
+        /* margin-top: -8px;
+        margin-left: -14px; */
+    }
+    .logoDiv {
+        display: flex;
+        justify-content: space-between;
+        width: 98%;
+        padding: 22px 0px 0px 0px;
+    }
+    .hamMenu {
+        height: fit-content;
+        background-color: #111110;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    .hamLogo {
+        padding: 0px 0px 0px 40px;
+        color: white;
+        text-decoration: none;
+    }
+    .menu-sub {
+        display: flex;
+        flex-direction: column;
+        padding: 62px 0px 0px 40px;
+    }
+    .menu-sub>ul {
+        margin-top: 30px;
+    }
+    .ul {
+        color: white;
+        font-weight: 600;
+        font-size: 18px;
+        cursor: pointer;
+        text-decoration: none;
+    }
+    .hamBut {
+        width: 150px;
+        height: 7%;
+        font-weight: 600;
+        cursor: pointer;
+        border-radius: 1.5mm;
+        margin-top: 6px;
+        background-color: white;
+        color: black;
+        text-align: center;
+        padding: 0px;
+        border: 1px solid;
+        margin: auto;
+    }
+    .butDiv {
+        width: 100%;
+        height: 100%;
+    }
+}

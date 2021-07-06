@@ -1,0 +1,47 @@
+.customer__stories-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.customer__stories-btn-wrapper {
+    padding-left: 400px;
+    padding-right: 400px;
+}
+
+.customer__stories-btn {
+    border:3px solid #111;
+  border-radius: 5px;
+  font-size:0.875;
+  word-wrap: break-word;
+  text-align: center;
+  text-transform: uppercase;
+  color: #111;
+  background-color: transparent;
+  margin-right: 14px;
+  width: 300px;
+  height: 50px;
+  margin-bottom: 10px;
+  font-size: 17px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.customer__stories-btn:hover {
+    background-color: #111;
+    color: #fff;
+    transition: all .5s;
+}
+
+@media (min-width: 200px) and (max-width: 500px) {
+    .customer__stories-button {
+        padding-left: 10px;
+        padding-right: 10px;
+     }
+     
+    .customer__stories-btn {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+}

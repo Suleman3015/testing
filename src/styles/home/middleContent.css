@@ -1,0 +1,39 @@
+.middle-content {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.middle-content__button {
+    width: 18rem;
+}
+
+.middle-content-btn {
+    border:3px solid #111;
+  border-radius: 5px;
+  font-size:0.875;
+  word-wrap: break-word;
+  text-transform: uppercase;
+  color: #111;
+  background-color: transparent;
+  margin-right: 14px;
+  width: 100%;
+  height: 50px;
+  margin-bottom: 10px;
+  font-size: 17px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.middle-content-btn:hover {
+    background-color: #111;
+    color: #fff;
+    transition: all .5s;
+}
+
+@media (min-width: 200px) and (max-width: 500px) {
+    .middle-content-btn {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+}

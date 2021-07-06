@@ -1,0 +1,219 @@
+.sliderPost__mainContainer {
+    margin-bottom: 100px;
+}
+
+.slider__container-wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* width: 100%; */
+}
+
+.sliderPost__container {
+    height:  397px;
+    /* background-color: black; */
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #fcb09c!important;
+    color: #fa3d3d!important;
+    width: 1003px;
+    overflow-y: hidden;
+    border-radius: 5px;
+    margin-left: 20rem;
+}
+
+.slider-slides {
+    position: relative;
+}
+
+.slider-slides .slick-next {
+    right: 30px;
+}
+
+.sliderPost__container * .slick-next {
+    right: 30px;
+}
+
+.sliderPost__image {
+    min-width: 362px;
+    min-height: 15.75rem;
+    flex: 0 0 auto;
+    overflow-y: hidden;
+    width: auto;
+    position: relative;
+    max-width: 100%;
+}
+
+.sliderPost__image img {
+    position: absolute;
+    border-radius: 5px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-size: cover;
+    background-position: 50%;
+    z-index: 1;
+    margin-bottom: 0;
+    margin: 0 0 1rem;
+    display: block;
+    /* background-image: url(https://2hrmp9bzmmx3f0xil1wyssgx-wpengine.netdna-ssl.com/wp-content/uploads/2021/01/imgCarouselCredoAltCrop@2x-933x1024.jpg) !important; */
+}
+
+.sliderPost__content-wrapper {
+    min-height: 460px;
+    position: relative;
+    align-items: stretch!important;
+    display: flex!important;
+    flex-basis: 0;
+    overflow-y: hidden;
+
+    flex-grow: 1;
+    /* flex: 0 0 66.66667%; */
+    padding: 48px;
+    max-width: 100%;
+}
+
+.sliderPost__Title {
+    flex: 1 1 auto;
+    min-height: 1px;
+    overflow-y: hidden;
+
+    padding: 0!important;
+}
+
+.sliderPost__blockQoute {
+    margin-bottom: 1rem;
+    overflow-y: hidden;
+
+    font-size: 1.40625rem;
+}
+
+
+.sliderPost__blockQoute blockquote {
+    position: relative;
+    overflow-y: hidden;
+
+    margin: 0 0 1rem;
+}
+
+.sliderPost__blockQoute h4 {
+    color: #fa3d3d!important;
+    font-size: 48px;
+    overflow-y: hidden;
+
+    line-height: 56px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.sliderPost__bottomContent {
+    padding-left: 0!important;
+    padding-bottom: 0!important;
+    padding-right: 0!important;
+    align-items: flex-end!important;
+    justify-content: space-between!important;
+    display: flex!important;
+    padding: 1.5rem 2rem;
+}
+
+.sliderPost__smallText {
+    margin-bottom: 0!important;
+}
+
+.sliderPost__smallText p {
+    color: #fa3d3d!important;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 600!important;
+}
+
+.sliderPost__icon {
+    margin-bottom: 0!important;
+}
+
+.sliderPost__icon img {
+    display: block;
+    margin-left: 0!important;
+    max-width: 100%;
+    box-sizing: border-box;
+    height: auto;
+    vertical-align: middle;
+}
+
+@media (min-width: 200px) and (max-width: 770px) {
+    .sliderPost__container {
+        flex-direction: row-reverse;
+        border-radius: 5px;
+        width: 100%;
+        height: auto;
+        display: flex;
+        margin-left: 0;
+        margin-bottom: 5rem;
+        flex-wrap: wrap;
+        background-color: #fcb09c!important;
+        color: #fa3d3d!important;
+    }
+
+    .sliderPost__image {
+        min-width: 100%;
+        min-height: 22.75rem;
+        flex: 0 0 auto;
+        width: auto;
+        position: relative;
+        max-width: 100%;
+    }
+
+    .sliderPost__image img {
+        position: absolute;
+        border-radius: 5px;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-size: cover;
+        background-position: 50%;
+        z-index: 1;
+        margin-bottom: 0;
+        margin: 0 0 1rem;
+        display: block;
+    }
+
+    .sliderPost__content-wrapper {
+        padding: 48px;
+        max-width: 100%;
+        position: relative;
+        align-items: stretch!important;
+        background-color: lightpink;
+        display: flex!important;
+        flex-basis: 0;
+        z-index: 1;
+        flex-grow: 1;
+        min-height: auto;
+    }
+
+    .sliderPost__bottomContent {
+        padding-left: 0!important;
+    padding-bottom: 0!important;
+    padding-right: 0!important;
+    align-items: flex-end!important;
+    justify-content: space-between;
+    display: flex!important;
+    padding: 5.5rem 2rem;
+    }
+
+    .sliderPost__blockQoute h4 {
+        font-size: 40px;
+        line-height: 1;
+    }
+
+    .sliderPost__smallText {
+        padding-bottom: 32px;
+    }
+}
+
+@media (min-width: 500px)  and (max-width: 770px) {
+    .sliderPost__mainContainer {
+        margin-bottom: 40px;
+    }
+}

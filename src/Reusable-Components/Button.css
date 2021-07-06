@@ -1,0 +1,71 @@
+.reuseable-Button {
+    border:3px solid #111;
+  border-radius: 5px;
+  font-size:0.875;
+  word-wrap: break-word;
+  font-size: 17px;
+  color: #fff;
+  background-color: #111;
+  margin-right: 14px;
+  width: 100%;
+  text-transform: uppercase;
+  height: 50px;
+  display: block;
+  max-width: 100%;
+  font-size: 17px;
+  margin-bottom: 10px;
+}
+
+.reuseable-Button p {
+    font-size: 17px;
+}
+
+
+.reuseable-Button-2 {
+    border:3px solid #111;
+  border-radius: 5px;
+  font-size:0.875;
+  word-wrap: break-word;
+  text-transform: uppercase;
+  color: #111;
+  background-color: transparent;
+  margin-right: 14px;
+  width: 100%;
+  height: 50px;
+  margin-bottom: 10px;
+  font-size: 17px;
+  display: block;
+}
+
+.reuseable-Button-2 p {
+    font-size: 17px;
+}
+
+.reuseable-Button-2:hover {
+    background-color: #111;
+    color: #fff;
+    transition: all .5s;
+}
+
+.reuseable-Button p {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 'bold';
+    text-transform: uppercase;
+    text-align: center;
+    vertical-align: middle;
+}
+
+@media (min-width: 200px) and (max-width: 500px) {
+    .reuseable-Button {
+        margin-right: 2px;
+        height: auto;
+
+    }
+
+    .reuseable-Button-2 {
+        margin-right: 2px;
+        height: auto;
+
+    } 
+} 

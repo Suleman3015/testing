@@ -1,0 +1,188 @@
+.header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.img {
+    position: relative;
+    height: 492px;
+    object-fit: cover;
+}
+
+.headerPara {
+    position: absolute;
+    width: 50%;
+    text-align: left;
+    left: 5%;
+}
+
+.headerPara h1 {
+    font-size: 40px;
+    color: white;
+}
+
+@media (max-width:1000px) {
+    .headerPara h1 {
+        font-size: 25px;
+        color: white;
+    }
+}
+
+@media (max-width:700px) {
+    .img {
+        position: relative;
+        width: 100%;
+        height: 500px;
+        object-fit: cover;
+    }
+    .headerPara h1 {
+        font-size: 28px;
+        color: white;
+    }
+}
+
+@media (max-width:450px) {
+    .img {
+        position: relative;
+        width: 100%;
+        height: 500px;
+        object-fit: cover;
+    }
+    .headerPara h1 {
+        font-size: 21px;
+        color: white;
+    }
+}
+
+/* our values css */
+
+.titlestyle>h1 {
+    font-size: 25px;
+    color: #3b66ea;
+    margin-bottom: 3%;
+}
+
+.titlestyle>h2 {
+    font-size: 28px;
+    color: black;
+    width: 50%;
+}
+
+.titlestyle {
+    display: flex;
+    flex-direction: column;
+    margin-left: 4%;
+}
+
+@media (max-width:768px) {
+    .titlestyle>h1 {
+        font-size: 25px;
+        color: #3b66ea;
+        margin-bottom: 3%;
+    }
+    .titlestyle>h2 {
+        font-size: 28px;
+        color: black;
+        width: 80%;
+    }
+    .titlestyle {
+        display: flex;
+        flex-direction: column;
+        margin-left: 4%;
+    }
+}
+
+/* our investors css */
+
+.investorstitle {
+    display: flex;
+    flex-direction: column;
+    margin-left: 4%;
+    padding-top: 5%;
+}
+
+.invh1 {
+    font-size: 25px;
+    color: #3b66ea;
+    margin-bottom: 3%;
+}
+
+.invh2 {
+    font-size: 28px;
+    color: black;
+    width: 50%
+}
+
+@media (max-width:768px) {
+    .investorstitle {
+        display: flex;
+        flex-direction: column;
+        margin-left: 4%;
+        padding-top: 5%;
+    }
+    .invh1 {
+        font-size: 25px;
+        color: #3b66ea;
+        margin-bottom: 3%;
+    }
+    .invh2 {
+        font-size: 28px;
+        color: black;
+        width: 60%;
+    }
+}
+
+.comma {
+    color: #222;
+    font-family: Georgia;
+    font-size: 70px;
+    margin-bottom: 0;
+    line-height: 1;
+    margin-left: 50%;
+}
+
+.invtend {
+    width: 100%;
+    padding-bottom: 12%;
+    color: black;
+}
+
+.invttitle {
+    width: 75%;
+    /* margin: auto; */
+    margin-left: 80px;
+}
+
+.invttitle>h1 {
+    font-size: 34px;
+    letter-spacing: 1px;
+    color: black;
+}
+
+.invttitle>p {
+    margin-top: 3%;
+    font-size: 15px;
+}
+
+@media (max-width:500px) {
+    .invtend {
+        width: 100%;
+        color: black;
+    }
+    .invttitle {
+        width: 74%;
+        /* margin: auto; */
+        margin-left: 32px;
+    }
+    .invttitle>h1 {
+        font-size: 22px;
+        letter-spacing: 1px;
+        color: black;
+    }
+    .invttitle>p {
+        margin-top: 3%;
+        font-size: 10px;
+    }
+}

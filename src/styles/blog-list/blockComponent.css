@@ -1,0 +1,45 @@
+.card {
+    background-color: #111;
+    text-decoration: none;
+}
+
+.item {
+    border: 0.5px solid grey;
+}
+
+.blockComponent__heading {
+    color: #fff; 
+    font-size: 75px; 
+    font-weight: 800;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.blockComponent__heading:nth-child(2) {
+    margin-top: -20px;
+}
+
+.blockComponent__para {
+    padding-top: 10px;
+    font-size: 24px;
+    color: #fff;
+}
+
+@media (min-width: 500px) and (max-width: 650px) {
+    .blockComponent__heading {
+        font-size: 60px;
+    }
+}
+
+@media (min-width: 200px) and (max-width: 500px) {
+    .blockComponent__heading {
+        font-size: 40px;
+    }
+
+    .blockComponent__para {
+        font-size: 20px;
+        padding-top: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}

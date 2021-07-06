@@ -1,0 +1,199 @@
+.Navbar {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    display: flex;
+    padding-top: 13px;
+    justify-content: space-between;
+    align-items: flex-start;
+    /* background-color: tomato; */
+    /* margin-top: 10px; */
+    font-family: Marr Sans Web, Helvetica Neue, HelveticaNeue-Light, Helvetica Neue Light, Helvetica, Arial, Lucida Grande, sans-serif;
+}
+
+.menuIcon {
+    /* margin-top: 25px; */
+    display: none;
+}
+
+.logo {
+    padding: 0px 0px 0px 70px;
+    cursor: pointer;
+}
+
+.logo-a{
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+    font-weight: 600;
+    font-size:20px ;
+}
+
+.menu {
+    display: flex;
+    align-items: baseline;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    /* height: auto; */
+    justify-content: space-between;
+    margin-right: 70px;
+}
+
+.menu>ul {display: block;
+    padding: 0px 0px 0px 0px;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+
+}
+
+.menu>ul>a {
+    margin-left: 1rem; 
+    margin-right: 1rem;
+    cursor: pointer;
+    font-weight: 600;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    text-decoration: none;
+    color: black;
+    
+}
+
+.menu>ul>a:hover {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    cursor: pointer;
+    font-weight: 600;
+    border-bottom: 2px solid black;
+}
+
+.but {
+    width: 140px;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 1.5mm;
+    margin-top: 0px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 7px;
+    font-size: 13px;
+    border: 1px solid;
+}
+
+@media (max-width:800px) {
+    .Navbar{
+        width: 100%;
+        height: 100%;
+        background: transparent;
+        display: flex;
+        padding-top: 13px;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .menu>ul {
+        display: none;
+    }
+    .menu {
+        display: flex;
+        align-items: center;
+        width: -webkit-fit-content;
+        width: -moz-fit-content;
+        width: fit-content;
+        /* height: auto; */
+        justify-content: space-between;
+        margin-right: 36px;
+}
+.logo-a{
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+    font-weight: 600;
+    font-size:16px ;
+}
+.but {
+    width: 120px;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 1.5mm;
+    margin-top: 0px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 6px;
+    font-size: 10px;
+    border: 1px solid;
+}
+
+    .menuIcon {
+        display: flex;
+        /* margin-top: 25px; */
+        margin-top: 2px;
+        margin-left: 14px;
+    }
+    
+    .logo {
+        padding: 0px 0px 0px 28px;
+        cursor: pointer;
+    }
+}
+
+@media (max-width:400px) {
+    .Navbar{
+        width: 100%;
+        height: 100%;
+        background: transparent;
+        display: flex;
+        padding-top: 13px;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .menu>ul {
+        display: none;
+    }
+    .menu {
+        display: flex;
+        align-items: center;
+        width: -webkit-fit-content;
+        width: -moz-fit-content;
+        width: fit-content;
+        /* height: auto; */
+        justify-content: space-between;
+        margin-right: 9px;
+}
+.but {
+    width: 90px;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 1.5mm;
+    margin-top: 0px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 6px;
+    font-size: 9px;
+    border: 1px solid;
+}
+.logo-a{
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+    font-weight: 600;
+    font-size:12px ;
+}
+
+
+    .menuIcon {
+        display: flex;
+        /* margin-top: 25px; */
+        margin-top: 2px;
+        margin-left: 0px;
+    }
+    
+    .logo {
+        padding: 0px 0px 0px 5px;
+        cursor: pointer;
+    }
+}

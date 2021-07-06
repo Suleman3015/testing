@@ -1,0 +1,93 @@
+.vc__cards-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+.vc__cards-wrapper {
+    background-color: #144f45;
+    color: #ffffff;
+    border-color: transparent;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-clip: border-box;
+    border: 1px solid #f1f1f0;
+    border-radius: 5px;
+    align-items: center;
+    height: 340px;
+    padding: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.vc__cards-h1 {
+    margin-top: 30px;
+}
+
+.vc__cards-h1 h1 {
+    font-size: 25px;
+    line-height: 24px;
+    letter-spacing: 1px;
+}
+
+.vc__cards-p {
+    margin-top: 20px;
+    /* padding-left: 10px; */
+    /* padding-right: 10px; */
+}
+
+.vc__cards-p p{
+    width: 300px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.vc__cards-button {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.vc__cards-btn {
+    border:3px solid #111;
+  border-radius: 5px;
+  font-size:0.875;
+  word-wrap: break-word;
+  text-align: center;
+  text-transform: uppercase;
+  color: #111;
+  background-color: transparent;
+  margin-right: 14px;
+  width: 240px;
+  height: 50px;
+  margin-bottom: 10px;
+  font-size: 17px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.vc__cards-btn:hover {
+    background-color: #111;
+    color: #fff;
+    transition: all .5s;
+}
+
+
+@media (min-width: 200px) and (max-width: 500px) {
+    .vc__cards-button {
+        padding-left: 10px;
+        padding-right: 10px;
+     }
+     
+    .vc__cards-btn {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+}
